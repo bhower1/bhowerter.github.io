@@ -1,0 +1,286 @@
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4em;
+  grid-auto-rows: minmax( 100px, auto);
+}
+.title {
+  align-self:start;
+  grid-column:1/3;
+  font-size:65px;
+  justify-items:end;
+  text-align:right;
+  text-shadow: 5px 5px white, 20px 20px #EA1F63;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: rgb(255, 204, 0);
+letter-spacing: 5px;
+}
+
+.letters {
+  grid-column:2/4;
+line-height: 3.5em;
+
+}
+.words {
+  grid-column:1;
+  grid-row:2/4;
+  text-align: right;
+  border-right:solid 1px;
+  padding:25px;
+  padding-top: 0px;
+  line-height: 1.5;
+
+}
+.bodytext {
+  align-items:end;
+  border-left:solid 1px;
+  padding:25px;
+  width:210px;
+  padding-top: 3em;
+
+}
+.text2 {
+padding-left: 170px;
+  width:210px;
+  padding-top: 3em;
+
+}
+.quote {
+font-size: 10px;
+
+}
+.back {
+  font-size:60px;
+  text-indent: 0px;
+  line-height: 1em;
+
+}
+
+/* style the main body of the document */
+body {
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:white;
+    background-image: linear-gradient(to right, #EA1F63, orange);
+}
+
+/* style the paragraph text */
+p {
+    color: white;
+    }
+/* style the headings */
+h1 {    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align:right;
+    color:white;
+}
+h2 {font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+
+}
+.capital {
+  font-size:50px;
+  text-shadow: 10px 15px rgb(255, 161, 37);
+  padding-top: 0px;
+  line-height: 2em;
+  letter-spacing: 15px;
+
+}
+.d {
+  font-size: 110px;
+
+}
+.c {
+  font-size: 80px;
+
+}
+.e {
+  font-size: 80px;
+
+}
+.n {
+  font-size: 70px;
+
+}
+.o {
+  font-size: 80px;
+
+}
+.p {
+  font-size: 110px;
+
+}
+.q {
+  font-size: 80px;
+
+}
+.t {
+  font-size: 80px;
+
+}
+.u {
+  font-size: 110px;
+
+}
+.v {
+  font-size: 80px;
+
+}
+
+.lowercase {
+  font-size:60px;
+  letter-spacing:2px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.symbols {
+  font-size:100px;
+  text-shadow: 10px 15px rgb(255, 161, 37), -5px 25px #EA1F63;
+  line-height: 0px;
+}
+.number{
+  font-size: 100px;
+  letter-spacing: 25px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  text-shadow: -10px 0px #EA1F63;
+}
+.number2 {
+  font-size: 50px;
+  letter-spacing: 5px;
+
+}
+.number3 {
+    font-size: 50px;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 100;
+font-style: normal;
+
+}
+.one {
+  font-size:130px;
+}
+.two {
+  font-size:120px;
+
+}
+.three {
+  font-size:110px;
+
+}
+.four {
+  font-size:100px;
+}
+.five {
+  font-size:90px;
+}
+.six {
+  font-size:90px;
+}
+.seven {
+  font-size:80px;
+}
+.eight {
+  font-size:70px;
+}
+.nine {
+  font-size:60px;
+}
+.zero {
+  font-size:50px;
+}
+.min {
+  letter-spacing: 1rem;
+  font-family: neue-haas-grotesk-display, sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+.clique {
+  letter-spacing: 1rem;
+}
+.buggy {
+font-variant: small-caps;
+
+}
+.gnome {
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+
+}
+.ensnare {
+  text-decoration: line-through;
+  text-decoration-style: soild;
+  text-decoration-thickness: 2px; 
+  font-size: 50px;
+
+}
+.cellar {
+  font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight: 900;
+  font-style: normal;
+
+}
+.emoji {
+  text-align: center;
+  font-size: 50px;
+
+
+}
+h3 {font-family: neue-haas-grotesk-display, sans-serif;
+  font-weight:400;
+  font-style:normal;
+  font-size:25px;
+  text-align:center;
+
+
+}
+h4 {
+
+}
+/* style the unordered list */
+ul {
+
+}
+
+/*define the link styles*/
+a {
+
+}
+a:hover {
+
+}
+a:visited {
+
+}
+
+/*define the strong styles*/
+strong {font-family: century-gothic,sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    
+
+}
+
+/*define the emphasis styles*/
+em {font-family: century-gothic,sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    
+
+}
+/*define the image styles*/
+
+img {
+ 
+}
+p {
+text-indent: 1em;
+
+}
